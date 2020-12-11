@@ -72,7 +72,7 @@ function draw() {
         default: break;
     }
   
-    if((touches.length >0 ||keyDown("space") ) &&player.y >= height-150) {
+    if((touches.length >0 ||keyDown("space") ) &&player.y >= height-120) {
       player.velocityY = -12;
       }
     player.velocityY = player.velocityY + 0.8;
