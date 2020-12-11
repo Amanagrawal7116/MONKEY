@@ -74,8 +74,7 @@ function draw() {
   
     if((touches.length >0 ||keyDown("space") ) &&player.y >= height-150) {
       player.velocityY = -12;
-      touches=[];
-    }
+      }
     player.velocityY = player.velocityY + 0.8;
   
     player.collide(ground);
