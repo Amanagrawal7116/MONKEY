@@ -8,7 +8,7 @@ var obstaclesGroup, obstacle_img;
 var gameOver;
 var score=0;
 
-var windowWidth,windowHeight;
+
 
 
 function preload(){
